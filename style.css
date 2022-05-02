@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(217, 217, 217, 0);
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+header img {
+    margin-left: 143px;
+    display: inline-block;
+}
+
+header p {
+    display: inline-block;
+    margin-left: 888px;
+    margin-bottom: 21px;
+    vertical-align: middle;
+}
+
+body {
+    background: radial-gradient(139.31% 356.62% at -25.21% 0%, #FCFEFF 0%, #ECF8FF 23.96%, #F9FDFF 48.96%, #F0FBFF 74.48%, #F1FAFF 99.08%);
+}
+
+.container-main {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.bottom {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.man {
+    width: 371px;
+    height: 855px;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.title {
+    color: #35C9F8;
+    display: inline-block;
+    width: 364px;
+    text-align: center;
+}
+
+.man div {
+    position: absolute;
+}
+
+.man a {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #5BC1CB;
+    border-radius: 35px;
+    background-color: #ffff;
+}
+
+.heart-wrapper {
+    top: 237px;
+    left: 178px;
+}
+
+.heart-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.brain-wrapper {
+    top: 21px;
+    left: 180px;
+}
+
+.brain-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.brain:hover+.brain-tooltip {
+    display: block;
+}
+
+.mouth-wrapper {
+    top: 90px;
+    left: 181px;
+}
+
+.mouth-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.mouth:hover+.mouth-tooltip {
+    display: block;
+}
+
+.ear-wrapper {
+    top: 58px;
+    left: 217px;
+}
+
+.ear-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.ear:hover+.ear-tooltip {
+    display: block;
+}
+
+.shit-wrapper {
+    top: 114PX;
+    left: 181PX;
+}
+
+.shit-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.shit:hover+.shit-tooltip {
+    display: block;
+}
+
+.five {
+    top: 203px;
+    left: 165px;
+}
+
+.six {
+    top: 237px;
+    left: 178px;
+}
+
+.seven {
+    top: 290px;
+    left: 138px;
+}
+
+.eight {
+    top: 290px;
+    left: 138px;
+}
+
+.nine {
+    top: 295px;
+    left: 203px;
+}
+
+.ten {
+    top: 315px;
+    left: 224px;
+}
+
+.eleven {
+    top: 372px;
+    left: 146px;
+}
+
+.twelve {
+    top: 402px;
+    left: 188px;
+}
+
+.heart:hover+.heart-tooltip {
+    display: block;
+}

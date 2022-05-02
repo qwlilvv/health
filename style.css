@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1184px;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    padding: 21px 0px;
+}

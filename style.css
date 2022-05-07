@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+main h2 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
 header {
     background-color: rgba(217, 217, 217, 0);
     padding-top: 15px;
@@ -55,7 +76,7 @@ body {
     position: absolute;
 }
 
-.man a {
+.dot {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -160,46 +181,213 @@ body {
     display: block;
 }
 
-.five {
-    top: 203px;
-    left: 165px;
+.lungs-wrapper {
+    top: 203PX;
+    left: 165PX;
 }
 
-.six {
-    top: 237px;
-    left: 178px;
+.lungs-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
 }
 
-.seven {
-    top: 290px;
-    left: 138px;
+.lungs:hover+.lungs-tooltip {
+    display: block;
 }
 
-.eight {
-    top: 290px;
-    left: 138px;
+.liver-wrapper {
+    top: 290PX;
+    left: 138PX;
 }
 
-.nine {
-    top: 295px;
-    left: 203px;
+.liver-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
 }
 
-.ten {
-    top: 315px;
-    left: 224px;
+.liver:hover+.liver-tooltip {
+    display: block;
 }
 
-.eleven {
-    top: 372px;
-    left: 146px;
+.stomach-wrapper {
+    top: 295PX;
+    left: 203PX;
 }
 
-.twelve {
-    top: 402px;
-    left: 188px;
+.stomach-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.stomach:hover+.stomach-tooltip {
+    display: block;
+}
+
+.pancreas-wrapper {
+    top: 315PX;
+    left: 224PX;
+}
+
+.pancreas-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.pancreas:hover+.pancreas-tooltip {
+    display: block;
+}
+
+.intestines-wrapper {
+    top: 372PX;
+    left: 146PX;
+}
+
+.intestines-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.intestines:hover+.intestines-tooltip {
+    display: block;
+}
+
+.bladder-wrapper {
+    top: 402PX;
+    left: 188PX;
+}
+
+.bladder-tooltip {
+    left: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.bladder:hover+.bladder-tooltip {
+    display: block;
 }
 
 .heart:hover+.heart-tooltip {
     display: block;
+}
+
+.back .ear-wrapper {
+    top: 58px;
+    left: 144px;
+}
+
+.back .liver-wrapper {
+    top: 301px;
+    left: 207px;
+}
+
+.back .stomach-wrapper {
+    top: 306px;
+    left: 154px;
+}
+
+.back .pancreas-wrapper {
+    top: 321px;
+    left: 139px;
+}
+
+.back .right-bud-wrapper {
+    top: 379px;
+    left: 203px;
+}
+
+.bud-tooltip {
+    right: 0;
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    padding: 24px 30px 26px 30px;
+    width: 420px;
+    box-shadow: 0px 0px 16px rgba(49, 177, 218, 0.24);
+    display: none;
+}
+
+.bud:hover+.bud-tooltip {
+    display: block;
+}
+
+.left-bud-wrapper {
+    top: 379px;
+    left: 158px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 103px;
+    border: #35C9F8 1px solid;
+    border-radius: 44px;
+    background: #35C9F8;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 60px;
+    font-weight: 500;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.button::after {
+    content: url(images/vector.svg);
+    padding-left: 80px;
+    padding-right: 60px;
+}
+
+footer {
+    position: relative;
+    background: linear-gradient(0deg, rgba(255, 214, 211, 0.52) 0%, rgba(255, 214, 211, 0) 100%);
+    padding-top: 106px;
+    padding-bottom: 61px;
+}
+
+footer .logo {
+    position: absolute;
+    right: 675px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
 }
